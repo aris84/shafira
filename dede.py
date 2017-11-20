@@ -7,10 +7,7 @@ from bs4 import BeautifulSoup
 #import gTTS
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests , ctypes, urllib, urllib2, wikipedia
 
-cl = LINETCR.LINE()
-cl.login(qr=True)
-#cl.login(token='')
-cl.loginResult()
+
 print "===[Login Success]==="
 
 mulai = time.time() 
